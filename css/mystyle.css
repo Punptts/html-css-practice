@@ -1,4 +1,15 @@
-/* Main layout */
+/* Variables */
+:root {
+    --color-primary: #1e1e1e;
+  
+    --color-background: #ffffff;
+  
+    --color-text: #1e1e1e;
+    --color-label: #888888;
+    --color-disable: #9E9E9E;
+  }
+
+/* Reset */
 body {
 margin: 0%;
 font-family: "Poppins", Arial, sans-serif;
@@ -34,13 +45,13 @@ font-weight: 400;
 }
 
 .navbar-wrapper {
-    color: #222;
+    color: var(--color-primary);
     text-decoration: unset;
 }
 
 .navbar-item {
     margin-left: 24px;
-    color: #222;
+    color: var(--color-primary);
     text-decoration: unset;
 }
 
@@ -52,3 +63,20 @@ font-weight: 400;
 height: 48px;
 }
 
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 40px 10%;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 16px;
+    color: var(--color-label);
+}
