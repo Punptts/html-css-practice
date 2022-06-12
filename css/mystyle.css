@@ -1,0 +1,54 @@
+/* Main layout */
+body {
+margin: 0%;
+font-family: "Poppins", Arial, sans-serif;
+background-image: url(/images/dotted-bg.svg);
+}
+
+main {
+    padding: 24px
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Text */
+h1,h2,h3,h4,h5,h6 {
+margin: 0%;
+line-height: 1;
+font-weight: 400;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 16px 10%;
+}
+
+.navbar-wrapper {
+    color: #222;
+    text-decoration: unset;
+}
+
+.navbar-item {
+    margin-left: 24px;
+    color: #222;
+    text-decoration: unset;
+}
+
+.navbar-item:hover {
+    color: red;
+}
+
+.logo {
+height: 48px;
+}
+
