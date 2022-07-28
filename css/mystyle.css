@@ -97,7 +97,7 @@ height: var(--length-lg2);
 }
 
 /* Landing Section */
-.landing {
+.landing-section {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
