@@ -82,11 +82,11 @@ font-weight: 400;
 
 .card-detail h2 {
     font-size: 20px;
-    font-weight: 500;   
+    font-weight: 600;   
 }
 
 .card-detail p {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--color-neutral500);
     padding-top: var(--length-sm1);
 }
@@ -259,7 +259,7 @@ height: var(--length-lg2);
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0 var(--length-sm2);
+    padding: 0 var(--length-md1);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -279,19 +279,11 @@ height: var(--length-lg2);
     padding-top: var(--length-md1)
 }
 
-.text-wrapper-heading {
+.text-wrapper {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2; /* number of lines to show */
-    -webkit-box-orient: vertical;
- }
-
- .text-wrapper-description {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
  }
 
